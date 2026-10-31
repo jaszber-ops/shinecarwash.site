@@ -39,6 +39,12 @@ export const Header: React.FC<HeaderProps> = ({ onLoginClick }) => {
               {item}
             </a>
           ))}
+          <a
+            href="/halloween/index.html"
+            className="text-sm font-semibold text-orange-400 hover:text-orange-300 transition-colors"
+          >
+            🎃 Halloween Bash
+          </a>
         </nav>
 
         {/* CTA */}
